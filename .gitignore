@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Environment (passwords, secrets)
+.env
+.env.local
+.env.*.local
+*.env
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
